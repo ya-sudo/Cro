@@ -1,0 +1,30 @@
+:root {
+  --yellow: #f9e7a6;
+  --green: #2b9127;
+  --dark-purple: #3025b0;
+}
+body {
+  text-align: center;
+  padding: 30px 20px;
+}
+.bg-y {
+  background-color: var(--yellow);
+}
+a {
+  color: var(--green);
+  margin: 0 10px;
+}
+.email-link {
+  color: var(--dark-purple);
+}
+h1 {
+  margin: 20px 0;
+}
+.img-container {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.img-container img {
+  width: 100%;
+}
